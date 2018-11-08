@@ -1,0 +1,32 @@
+{
+  "name": "react-abr-lookup",
+  "description": "A modern reactjs implementation of the ABR lookup service",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "16.6.0",
+    "react-cache": "canary",
+    "react-dom": "16.6.0",
+    "react-scripts": "1.1.1",
+    "request": "^2.88.0",
+    "scheduler": "canary"
+  },
+  "scripts": {
+    "start-server": "node proxy",
+    "start-dev": "react-scripts start",
+    "start-prod": "NODE_ENV=production npm run start-server",
+    "start": "npm run start-server | npm run start-dev",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest-fetch-mock": "^1.6.6",
+    "react-test-renderer": "^16.6.1"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  }
+}

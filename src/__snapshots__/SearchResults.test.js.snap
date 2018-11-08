@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults renders as intended 1`] = `
+<span>
+  loading
+</span>
+`;
+
+exports[`SearchResults renders as intended 2`] = `
+<div
+  className="entity"
+  onClick={[Function]}
+>
+  <div
+    className="main"
+  >
+    <div
+      className="title"
+    >
+      BUNNINGS GROUP LIMITED
+    </div>
+    <div
+      className="info"
+    >
+      ABN: 26008672179
+    </div>
+  </div>
+  <div
+    className="hover"
+  >
+    👉
+  </div>
+</div>
+`;

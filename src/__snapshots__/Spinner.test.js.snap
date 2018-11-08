@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner renders as intended 1`] = `
+<div
+  className="spinner"
+  style={
+    Object {
+      "fontSize": "35px",
+      "lineHeight": "35px",
+    }
+  }
+>
+  🌀
+</div>
+`;

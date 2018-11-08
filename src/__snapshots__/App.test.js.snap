@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders as intended 1`] = `
+Array [
+  <h1>
+    ABR Lookup Service
+</h1>,
+  <input
+    className="searchBox"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    type="text"
+    value=""
+/>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Search
+</button>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Reset
+</button>,
+  <div
+    className="schType"
+>
+    <span>
+        Search Type
+    </span>
+    <ul>
+        <li
+            className="sel"
+            onClick={[Function]}
+        >
+            name
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            abn
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            acn
+        </li>
+    </ul>
+</div>,
+  <div
+    className="searchResults"
+>
+    <span>
+        Enter a search term and hit search...
+    </span>
+</div>,
+]
+`;

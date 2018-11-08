@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: sans-serif;
+  background: #eee;
+  color: #222;
+}
+
+.searchBox {
+  min-width: 500px;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+
+.schType {
+  margin-top: 1rem;
+}
+
+ul {
+  margin: 0 0 0 2rem;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+li.sel {
+  text-decoration: overline;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.selOpt {
+  font-size: 1.2rem;
+}
+
+.frmBtn {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 100px;
+}
+
+.entity {
+  background-color: #333;
+  color: #EEE;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  display: flex;
+}
+
+.searchResults {
+  margin-top: 40px;
+}
+
+.searchResults > span {
+  font-size: 1rem;
+  color: #888;
+}
+
+.entity .main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entity .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.entity .info {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.entity .hover {
+  display: none;
+  align-self: center;
+}
+
+.entity:hover .hover {
+  display: block;
+}
+
+.entity .loading {
+  padding: 0.5rem;
+  align-self: center;
+}
+
+.onBack {
+  background-color: #282828;
+  border: 1px solid #444;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: #EEE;
+  font-size: 1rem;
+}
+
+.spinner {
+  text-align: center;
+  animation: spin infinite 2s linear reverse;
+  width: 35px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

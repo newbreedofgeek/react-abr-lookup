@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchDetail renders as intended 1`] = `
+<span>
+  loading
+</span>
+`;
+
+exports[`SearchDetail renders as intended 2`] = `
+<div
+  className="entityDetails"
+>
+  <h1>
+    Name: 
+    BUNNINGS GROUP LIMITED
+  </h1>
+  <h2>
+    ABN: 
+    26008672179
+  </h2>
+  <h3>
+    Status: 
+    Active
+  </h3>
+</div>
+`;

@@ -1,0 +1,105 @@
+{
+   "Message":"",
+   "Names":[
+      {
+         "Abn":"74599608295",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY",
+         "NameType":"Entity Name",
+         "Postcode":"2601",
+         "Score":100,
+         "State":"ACT"
+      },
+      {
+         "Abn":"72189919072",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY",
+         "NameType":"Entity Name",
+         "Postcode":"2800",
+         "Score":100,
+         "State":"NSW"
+      },
+      {
+         "Abn":"84144814556",
+         "AbnStatus":"0000000002",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRIAL RELATIONS",
+         "NameType":"Trading Name",
+         "Postcode":"2010",
+         "Score":97,
+         "State":"NSW"
+      },
+      {
+         "Abn":"52293849579",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRIAL RELATIONS",
+         "NameType":"Other Name",
+         "Postcode":"4000",
+         "Score":97,
+         "State":"QLD"
+      },
+      {
+         "Abn":"84085734992",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRIES AND BUSINESS",
+         "NameType":"Other Name",
+         "Postcode":"0810",
+         "Score":97,
+         "State":"NT"
+      },
+      {
+         "Abn":"69410335356",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY AND RESOURCES",
+         "NameType":"Entity Name",
+         "Postcode":"6004",
+         "Score":97,
+         "State":"WA"
+      },
+      {
+         "Abn":"74599608295",
+         "AbnStatus":"0000000001",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY AND SCIENCE",
+         "NameType":"Entity Name",
+         "Postcode":"2601",
+         "Score":97,
+         "State":"ACT"
+      },
+      {
+         "Abn":"94200796476",
+         "AbnStatus":"0000000002",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY AND TECHNOLOGY",
+         "NameType":"Entity Name",
+         "Postcode":"6000",
+         "Score":97,
+         "State":"WA"
+      },
+      {
+         "Abn":"64739088312",
+         "AbnStatus":"0000000002",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF INDUSTRY AND TRADE",
+         "NameType":"Trading Name",
+         "Postcode":"5000",
+         "Score":97,
+         "State":"SA"
+      },
+      {
+         "Abn":"78342684030",
+         "AbnStatus":"0000000002",
+         "IsCurrent":true,
+         "Name":"DEPARTMENT OF PRIMARY INDUSTRIES",
+         "NameType":"Trading Name",
+         "Postcode":"4000",
+         "Score":97,
+         "State":"QLD"
+      }
+   ]
+}
