@@ -60,3 +60,178 @@ Array [
 </div>,
 ]
 `;
+
+exports[`App renders as intended 2`] = `
+Array [
+  <h1>
+    ABR Lookup Service
+</h1>,
+  <input
+    className="searchBox"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    type="text"
+    value="bunnings"
+/>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Search
+</button>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Reset
+</button>,
+  <div
+    className="schType"
+>
+    <span>
+        Search Type
+    </span>
+    <ul>
+        <li
+            className="sel"
+            onClick={[Function]}
+        >
+            name
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            abn
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            acn
+        </li>
+    </ul>
+</div>,
+  <div
+    className="searchResults"
+>
+    <div
+        className="spinner"
+        style={
+            Object {
+                "fontSize": "35px",
+                "lineHeight": "35px",
+              }
+        }
+    >
+        🌀
+    </div>
+</div>,
+]
+`;
+
+exports[`App renders as intended 3`] = `
+Array [
+  <h1>
+    ABR Lookup Service
+</h1>,
+  <input
+    className="searchBox"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    type="text"
+    value="bunnings"
+/>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Search
+</button>,
+  <button
+    className="frmBtn"
+    onClick={[Function]}
+>
+    Reset
+</button>,
+  <div
+    className="schType"
+>
+    <span>
+        Search Type
+    </span>
+    <ul>
+        <li
+            className="sel"
+            onClick={[Function]}
+        >
+            name
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            abn
+        </li>
+        <li
+            className={null}
+            onClick={[Function]}
+        >
+            acn
+        </li>
+    </ul>
+</div>,
+  <div
+    className="searchResults"
+>
+    <div
+        className="entity"
+        onClick={[Function]}
+    >
+        <div
+            className="main"
+        >
+            <div
+                className="title"
+            >
+                BUNNINGS
+            </div>
+            <div
+                className="info"
+            >
+                ABN: 26008672179
+            </div>
+        </div>
+        <div
+            className="hover"
+        >
+            👉
+        </div>
+    </div>
+    <div
+        className="entity"
+        onClick={[Function]}
+    >
+        <div
+            className="main"
+        >
+            <div
+                className="title"
+            >
+                BUNNINGS HANDICRAFTS
+            </div>
+            <div
+                className="info"
+            >
+                ABN: 63099797977
+            </div>
+        </div>
+        <div
+            className="hover"
+        >
+            👉
+        </div>
+    </div>
+</div>,
+]
+`;
