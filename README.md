@@ -27,16 +27,16 @@ NO! it was built in around 4 hours and uses a lot of experimental features which
 
 ## How can I run it?
 `npm start`
-launch the api proxy and react dev server for dev mode
+- launch the api proxy and react dev server for dev mode
 
 `npm test`
-unit test mode for live TDD (as your code)
+- unit test mode for live TDD (as your code) - the first time you run tests you may need to hit `a - run all tests`
 
 `npm build`
-build your prod react pack
+- build your prod react pack
 
 `npm run start-prod`
-run in prod mode
+- run in prod mode
 
 ## Make sure you feed your guid via querystring or APIs wont show data
 http://localhost:3000/?guid=bxxxxx-5xxxx-xxxx0-9xxxx-xxxxxa
