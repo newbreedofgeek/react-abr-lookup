@@ -53,6 +53,7 @@ http://localhost:3000/?guid=bxxxxx-5xxxx-xxxx0-9xxxx-xxxxxa
 ## Improvements
 - better react list keys (current ABNs are used and they can repeat)
 - implement paging for name search
+- add routing via react-router
 - folder structure of src should be cleaned up
 - SASS instead of CSS
 - Complete unit tests for api, cache, index
