@@ -1,8 +1,8 @@
 import React from 'react';
 import App from './App';
 import renderer from 'react-test-renderer';
-import { name as mockNameApi, abn as mockAbnApi } from '../data/mockApi';
-import { delay } from './util';
+import { name as mockNameApi, abn as mockAbnApi } from '../../data/mockApi';
+import { delay } from '../common/util';
 
 beforeEach(() => {
   fetch.resetMocks()

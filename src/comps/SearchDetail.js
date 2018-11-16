@@ -1,7 +1,7 @@
 import React from "react";
-import { abnLookup } from "./api";
-import { createResource } from "./cache";
-import { standardizeResult } from './util';
+import { abnLookup } from "../common/api";
+import { createResource } from "../common/cache";
+import { standardizeResult } from '../common/util';
 
 const abnLookupResource = createResource(abnLookup);
 

@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
 import SearchResults from './SearchResults';
 import renderer from 'react-test-renderer';
-import { abn as mockAbnApi } from '../data/mockApi';
-import { delay } from './util';
+import { abn as mockAbnApi } from '../../data/mockApi';
+import { delay } from '../common/util';
 
 beforeEach(() => {
   fetch.resetMocks()

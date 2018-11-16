@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import { abnLookup, acnLookup, nameLookup } from "./api";
-import { createResource } from "./cache";
+import { abnLookup, acnLookup, nameLookup } from "../common/api";
+import { createResource } from "../common/cache";
 import { Spinner } from './Spinner';
-import { standardizeResult } from './util';
+import { standardizeResult } from '../common/util';
 
 const abnLookupResource = createResource(abnLookup);
 const acnLookupResource = createResource(acnLookup);
